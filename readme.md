@@ -3,7 +3,7 @@ A Comprehensive Pipeline for Predictive Financial Analytics
 
 
 
-🔍 Overview
+🔍 Overview 
 This project presents a robust alpha generation pipeline leveraging Long Short-Term Memory (LSTM) networks for stock price prediction. It integrates:
 
 Advanced feature engineering using SHAP (SHapley Additive exPlanations) values

@@ -1,3 +1,7 @@
+(i will probably upload a much nicer one later , toooo tired after all the work)
+
+
+
 📈 Robust Alpha Generation Using LSTM Models
 A Comprehensive Pipeline for Predictive Financial Analytics
 
@@ -22,33 +26,7 @@ Conditional Value at Risk (CVaR)
 Maximum Drawdown
 💰 Simulated Trading Strategy for profitability assessment
 📝 Automated Report Generation in Word format
-📂 Project Structure
-.
-├── data/                         # Data files (raw and processed)
-│   ├── raw_stock_data.csv
-│   └── engineered_stock_data.csv
-│
-├── model/                        # Saved LSTM model
-│   └── lstm_model.h5
-│
-├── results/                       # Visual results and reports
-│   ├── predictions.png
-│   ├── feature_importance.png
-│   ├── trading_strategy.png
-│   ├── drawdown_analysis.png
-│   ├── final_report.docx
-│
-├── main.py                        # Main pipeline script
-├── data_collection.py             # Stock data collection script
-├── feature_engineering.py         # Feature engineering logic
-├── lstm_stock_prediction.py       # LSTM model training and prediction
-├── trading_strategy_simulation.py # Simulated trading strategy
-├── risk_metrics_analysis.py       # Financial risk metrics calculation
-├── backtesting_performance.py     # Backtesting performance evaluation
-├── generate_report.py             # Automated report generation
-│
-├── requirements.txt               # Python package requirements
-└── README.md                      # This README file
+
 📷 Sample Visualizations
 🔮 Model Predictions
 
@@ -91,7 +69,7 @@ Maximum Drawdown: Largest drop from peak to trough during the trading period
 🔬 Research Insights
 This project demonstrates the potential of LSTM-based models for alpha generation and offers a solid framework for risk management in financial trading. The results highlight the model's robustness under various market conditions.
 
-📄 Published Paper: 
+📄 Published Paper: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5150313
 
 💻 Contributing
 Contributions are welcome! Please open an issue or submit a pull request for improvements or new features.

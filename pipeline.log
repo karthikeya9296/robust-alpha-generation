@@ -1,0 +1,16 @@
+ERROR:root:Data loading failed: [Errno 2] No such file or directory: 'data/stock_data.csv'
+ERROR:root:Pipeline failed: [Errno 2] No such file or directory: 'data/stock_data.csv'
+ERROR:root:Data preparation failed: Data file not found at data/engineered_stock_data.csv
+Please ensure:
+1. File exists in the 'data' directory
+2. Contains required columns: ['Date', 'Close_AAPL', 'High_AAPL', 'Low_AAPL', 'Open_AAPL', 'Volume_AAPL', 'sentiment']
+ERROR:root:Pipeline failure: Data file not found at data/engineered_stock_data.csv
+Please ensure:
+1. File exists in the 'data' directory
+2. Contains required columns: ['Date', 'Close_AAPL', 'High_AAPL', 'Low_AAPL', 'Open_AAPL', 'Volume_AAPL', 'sentiment']
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+WARNING:absl:There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.Adam`.
+ERROR:root:SHAP analysis failed: only integer scalar arrays can be converted to a scalar index
+ERROR:root:Pipeline failure: only integer scalar arrays can be converted to a scalar index
+WARNING:absl:At this time, the v2.11+ optimizer `tf.keras.optimizers.Adam` runs slowly on M1/M2 Macs, please use the legacy Keras optimizer instead, located at `tf.keras.optimizers.legacy.Adam`.
+WARNING:absl:There is a known slowdown when using v2.11+ Keras optimizers on M1/M2 Macs. Falling back to the legacy Keras optimizer, i.e., `tf.keras.optimizers.legacy.Adam`.
